@@ -209,3 +209,7 @@ tbody tr:hover td { background: #f8fafc; }
 }
 .toast-success { background: #16a34a; }
 .toast-error { background: #dc2626; }
+@media (max-width: 768px) {
+  .mobile-cards { display: block !important; }
+  .desktop-table { display: none !important; }
+}

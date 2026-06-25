@@ -102,8 +102,13 @@ export default function Home() {
     cardTitle: { fontSize:'22px', fontWeight:'800', color:'#0f172a' },
     cardSub: { fontSize:'13px', color:'#94a3b8', marginTop:'4px' },
     addBtn: { background:'#2563eb', color:'white', border:'none', borderRadius:'12px', padding:'11px 20px', fontSize:'14px', fontWeight:'700', cursor:'pointer', display:'flex', alignItems:'center', gap:'6px' },
-    filtersGrid: { display:'grid', gridTemplateColumns:'2fr 1fr 1fr 1fr', gap:'10px', marginBottom:'24px' },
-    input: { border:'1.5px solid #e2e8f0', borderRadius:'10px', padding:'10px 14px', fontSize:'13px', color:'#1e293b', background:'#f8fafc', outline:'none', width:'100%' },
+// filters grid mein yeh style use karo:
+filtersGrid: { 
+  display:'grid', 
+  gridTemplateColumns:'1fr', 
+  gap:'8px', 
+  marginBottom:'16px' 
+},    input: { border:'1.5px solid #e2e8f0', borderRadius:'10px', padding:'10px 14px', fontSize:'13px', color:'#1e293b', background:'#f8fafc', outline:'none', width:'100%' },
   };
 
   return (

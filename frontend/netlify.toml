@@ -11,3 +11,5 @@
   to = "https://management-system-1-r7o7.onrender.com/api/:splat"
   status = 200
   force = true
+  [[plugins]]
+  package = "@netlify/plugin-nextjs"
